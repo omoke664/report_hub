@@ -85,17 +85,28 @@ It’s designed for teams that need workflow structure, integrated data sources,
 
 report_hub/
 └── streamlit_report_hub/
+
 └── report_manager_streamlit/
+
 ├── alembic/ # Database migrations and versions
+
 ├── modules/ # Helper and logic modules
+
 ├── page/ # UI page components
+
 ├── uploads/ # Uploaded report files
+
 ├── app.py # Main Streamlit app
+
 ├── db.py # Database session and init code
+
 ├── models.py # ORM models and relationships
+
 ├── report_manager.db # Main SQLite DB
+
 ├── report_manager_backup.db # Backup database
-├── dashboards_backup.csv # Dashboard backup
+
+
 └── README.md # Project documentation
 
 
